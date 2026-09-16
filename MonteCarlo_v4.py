@@ -3,7 +3,7 @@ from collections import Counter
 from pathlib import Path
 from statistics import mean
 
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto5s_186_k73.csv")
+CSV_PATH = Path("/data/loto5s_186_k73.csv")
 NEWEST_FIRST = False
 WINDOWS = (None, 50, 100, 250, 500, 1000)
 
@@ -189,5 +189,5 @@ Pogodaka 5+1 na testu: 0
 
 Predlog, CSV format:
 b1,b2,b3,b4,b5,dopunski
-6,8,32,34,35,5
+6,x,32,y,35,5
 """
