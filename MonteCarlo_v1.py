@@ -4,7 +4,7 @@ from collections import Counter
 from pathlib import Path
 from statistics import mean, stdev
 
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7_4686_k74.csv")
+CSV_PATH = Path("/data/loto7_4686_k74.csv")
 NEWEST_FIRST = False
 
 # None = sva prethodna izvlačenja.
@@ -182,5 +182,5 @@ Pogodaka | Broj izvlačenja
 
 Predlog za sledeće izvlačenje, CSV format:
 b1,b2,b3,b4,b5,b6,b7
-1,7,14,16,18,28,31
+1,x,14,y,18,z,31
 """
